@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+    background: url('../images/crowd.jpg') center bottom;
+}
+.keys{
+    padding: 10px 20px;
+    margin: 0 10px;
+    display: block;
+    border: 1px solid #ffffff;
+    background: rgb(0,0,0,.7);
+    color: #ffffff;
+    border-radius: 10%;
+    display: grid;
+    font-size: 10px;
+    text-transform: uppercase;
+    min-width: 40px;
+    transition: all 0.07s ease;
+}
+kbd{
+    font-size: 30px;
+}
+.playing{
+    border: 3px solid yellowgreen;
+    transform: scale(1.1);
+    transition: all 0.07s ease;
+}
